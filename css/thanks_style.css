@@ -1,0 +1,89 @@
+.section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+.section-header {
+    margin: 0%;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    text-align: center;
+    margin-top: 49px;
+}
+
+.section-header span {
+    width: max-content;
+
+}
+
+
+.ok-image {
+    background: url("../images/ok.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+}
+
+
+
+.section-text {
+    max-width: 400px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+
+.section-title {
+    width: 530px;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 27px;
+}
+
+.section-variants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+    height: 300px;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+.variant-el {
+    display: flex;
+    justify-content: center;
+}
+
+.variant-el span {
+    margin-left: 42px;
+    width: 400px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+.img-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+}

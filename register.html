@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/register_style.css" rel="stylesheet" />
+    <title>SPORTCLUB | Реєстрація</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo">
+                <div class="logo">
+                </div>
+                <div class="logo-text">
+                    <span class="header-title">
+                        SPORTCLUB</span>
+                    <span class="header-text">Твій шлях до сили та здоровья</span>
+                </div>
+            </div>
+            <div class="menu">
+                <a href="./"><span>Головна</span></a>
+                <span>Послуги</span>
+                <span>Ком’юніті</span>
+                <span>Абонементи</span>
+                <span>Контакти</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">
+                <span>Реєстрація</span>
+            </div>
+            <div class="reg-form">
+                <div class="present-img"></div>
+                <span class="reg-title">Приєднуйся зараз — отримай безкоштовне перше тренування!</span>
+
+                <form action="./thanks.html" method="post">
+                    <div class="input-columns">
+                        <div>
+                            <input type="text" name="name" placeholder="Ім'я та Призвіще">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+
+                        <div>
+                            <input type="phone" name="phone" placeholder="Телефон">
+                            <select name="tariff" required>
+                                <option value="" disabled selected>Оберіть тариф</option>
+                                <option value="basic">Базовий: тренажери зала</option>
+                                <option value="full">Повний: зала + групові</option>
+                                <option value="premium">Преміум: все + персональний тренер + масаж</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button onclick="window.location.href = './thanks.html'">Зареєструватися</button>
+                </form>
+
+                <div class="reg-pictures">
+                    <div class="picture1"></div>
+                    <div class="picture2"></div>
+                    <div class="picture3"></div>
+                </div>
+
+                <span class="reg-action">Мотивація. Результат. Ком’юніті.</span>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer-column">
+                <span class="footer-header">Розклад роботи</span>
+                <div>
+                    <span class="footer-days">Пн - Пт:</span>
+                    <span class="footer-time">7:00 - 22:00</span>
+                </div>
+                <div>
+                    <span class="footer-days">Сб -
+                        Нд:</span>
+                    <span class="footer-time">9:00 - 21:00</span>
+                </div>
+            </div>
+            <div class="footer-column">
+                <span class="footer-header">Контакти</span>
+                <div class="contact-el">
+                    <div class="inet-img"></div><span class="contact-text">sportclub.com</span>
+                </div>
+                <div class="contact-el">
+                    <div class="email-img"></div>
+
+                    <span class="contact-text">info@sportclub.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
